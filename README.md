@@ -12,7 +12,7 @@ cd scripts
 ruby ./image_and_audio_to_video.rb "general/thanks"
 ```
 
-This script assume that has
+This script assumes there are an image and audio files.
 
 imput:
 
