@@ -33,38 +33,7 @@ video_path = "../videos/general/thanks.mpeg"
 ruby ./render_screencast.rb "cenit_and_api_econnomy"
 ```
 
-to check the output go to:
-
-```batch
-cd ../output
-```
-
-screencast.json schema
-
-```json
-  {
-    "$schema": "http://json-schema.org/schema#",
-    "title": {
-      "type": "string"
-    },
-    "file_name": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
-    "tags": {
-      "type": "string",
-      "pattern": "[^,\s][^\,]*[^,\s]*"
-    },
-    "sequence": {
-      "type": "string",
-      "items": {
-        "type": "string",
-    }
-  }
-```
-
+This script assumes there is cenit_and_api_econnomy.jon in presentation folder.
 
 ```json
 {
@@ -98,4 +67,38 @@ screencast.json schema
     "general/thanks"
   ]
 }
+```
+
+to check the output go to:
+
+```batch
+cd ../output
+```
+
+output folder is included in .gitignore
+
+screencast.json schema
+
+```json
+  {
+    "$schema": "http://json-schema.org/schema#",
+    "title": {
+      "type": "string"
+    },
+    "file_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "string",
+      "pattern": "[^,\s][^\,]*[^,\s]*"
+    },
+    "sequence": {
+      "type": "string",
+      "items": {
+        "type": "string",
+    }
+  }
 ```
