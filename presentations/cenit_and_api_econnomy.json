@@ -3,7 +3,7 @@
   "file_name": "cenit_and_api_econnomy",
   "description": "The creation of new services using existing API’s is usually a nightmare. Cenit IO, aims to fill that gap to make easy for developers to consume and compose new API’s from existing ones.",
   "tags": "API Econnomy, Cenit IO, Workflow Orchestration API",
-  "secuence": [
+  "sequence": [
     "general/what_is_cenit",
     "cenit_and_api_formal_def/challenge_api_econnomy",
     "cenit_and_api_formal_def/why_formal_api_def",

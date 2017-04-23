@@ -1,12 +1,12 @@
 
 
-Define a presentation.json and generate the new video.
+# Generate an screncast with a presentation.json
 
 ```batch
 cd scripts
 ```
 
-# image + audio => video
+## image + audio => video
 
 ```batch
 ruby ./image_and_audio_to_video.rb "general/thanks"
@@ -14,15 +14,17 @@ ruby ./image_and_audio_to_video.rb "general/thanks"
 
 This script assume that has
 
-# imput
+imput:
+
 image_path = "../images/general/thanks.png"
 audio_path = "../audios/general/thanks.mp3"
 
-# output
+output:
+
 video_path = "../videos/general/thanks.mpeg"
 
 
-Generate and screencast with a secuence of videos
+## Generate and screencast
 
 ```batch
 ruby ./render_screencast.rb "cenit_and_api_econnomy"
@@ -52,7 +54,7 @@ screencast.json schema
       "type": "string",
       "pattern": "[^,\s][^\,]*[^,\s]*"
     },
-    "secuence": {
+    "sequence": {
       "type": "string",
       "items": {
         "type": "string",
@@ -67,7 +69,7 @@ screencast.json schema
   "file_name": "cenit_and_api_econnomy",
   "description": "The creation of new services using existing API’s is usually a nightmare. Cenit IO, aims to fill that gap to make easy for developers to consume and compose new API’s from existing ones.",
   "tags": "API Econnomy, Cenit IO, Workflow Orchestration API",
-  "secuence": [
+  "sequence": [
     "general/what_is_cenit",
     "cenit_and_api_formal_def/challenge_api_econnomy",
     "cenit_and_api_formal_def/why_formal_api_def",
