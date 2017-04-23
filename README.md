@@ -16,13 +16,16 @@ This script assume that has
 
 imput:
 
+```
 image_path = "../images/general/thanks.png"
 audio_path = "../audios/general/thanks.mp3"
+```
 
 output:
 
+```
 video_path = "../videos/general/thanks.mpeg"
-
+```
 
 ## Generate and screencast
 
