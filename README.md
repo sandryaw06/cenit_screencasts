@@ -38,7 +38,7 @@ cd ../output
 
 screencast.json schema
 
-```Json
+```json
   {
     "$schema": "http://json-schema.org/schema#",
     "title": {
@@ -63,7 +63,7 @@ screencast.json schema
 ```
 
 
-```Json
+```json
 {
   "title": "Cenit IO and API Econnomy",
   "file_name": "cenit_and_api_econnomy",
