@@ -2,6 +2,10 @@
 
 # Generate an screencast with a presentation.json
 
+This repo is used in the generation of screencasts related to Cenit IO (https://cenit.io)
+
+Move to scripts folder
+
 ```batch
 cd scripts
 ```
@@ -77,7 +81,7 @@ cd ../output
 
 output folder is included in .gitignore
 
-screencast.json schema
+## screencast.json schema
 
 ```json
   {
@@ -102,3 +106,8 @@ screencast.json schema
     }
   }
 ```
+
+## TODO
+
+* Add an script to add or update a video in youtube.
+* and an script that allow video_silent + audio => video
