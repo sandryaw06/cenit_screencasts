@@ -1,6 +1,6 @@
 
 
-# Generate an screncast with a presentation.json
+# Generate an screencast with a presentation.json
 
 ```batch
 cd scripts
