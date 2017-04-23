@@ -6,8 +6,26 @@ Define a presentation.json and generate the new video.
 cd scripts
 ```
 
+# image + audio => video
+
 ```batch
-ruby ./render.rb "cenit_and_api_econnomy"
+ruby ./image_and_audio_to_video.rb "general/thanks"
+```
+
+This script assume that has
+
+# imput
+image_path = "../images/general/thanks.png"
+audio_path = "../audios/general/thanks.mp3"
+
+# output
+video_path = "../videos/general/thanks.mpeg"
+
+
+Generate and screencast with a secuence of videos
+
+```batch
+ruby ./render_screencast.rb "cenit_and_api_econnomy"
 ```
 
 to check the output go to:
@@ -75,19 +93,4 @@ screencast.json schema
     "general/thanks"
   ]
 }
-```
-
-
-basic command
-
-video + audio => video
-
-```batch
-ffmpeg -loop 1 -i images/001.png -i audios/001.mp3 -shortest videos/001.mpeg
-```
-
-video_1 + video_2 + ... + video_n => video
-
-```batch
-ffmpeg -i concat:"001.mpeg|002.mpeg|003.mpeg" output.mpeg
 ```
