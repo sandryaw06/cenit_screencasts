@@ -1,0 +1,16 @@
+{
+  "title": "Cenit IO - Working with Schemas and DataTypes",
+  "file_name": "schemas_and_datatype_in_cenit",
+  "description": "",
+  "tags": "Cenit IO, Schemas, JSON, Data Types",
+  "sequence": [
+    "general/what_is_cenit",
+    "schemas_and_datatypes/schemas_and_datatypes",
+    "schemas_and_datatypes/how_define_object_type",
+    "schemas_and_datatypes/json_schema_title",
+    "schemas_and_datatypes/json_schema_object",
+    "schemas_and_datatypes/json_schema_properties",
+    "schemas_and_datatypes/json_schema_requiered",
+    "general/thanks"
+  ]
+}
